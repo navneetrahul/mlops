@@ -8,7 +8,7 @@ st.title("Web Deployment of Medical Diagnostic App ")
 st.subheader("Is the person diabetic ?")
 df=pd.read_csv('diabetes.csv')
 if st.sidebar.checkbox('View Data',False):
-    st.write(df)a
+    st.write(df)
 if st.sidebar.checkbox('View Distribution', False):
     df.hist()
     plt.tight_layout()
