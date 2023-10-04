@@ -37,7 +37,7 @@ data={
     'Glucose':glucose,
     'BloodPressure':bp,
     'SkinThickness':skin,
-    'Insulin':insulin,
+    'Insulin':Insulin,
     'BMI':bmi,
     'DiabetesPedigreeFunction':dpf,
     'Age':age
